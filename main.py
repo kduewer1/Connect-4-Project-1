@@ -25,7 +25,6 @@ def lvl(a):
     except ValueError:
       print("Please enter a number. Try again!")
       continue
-  #if ask == guesslist[0] or ask == guesslist[1] or ask == guesslist[2] or ask == guesslist[3] or ask == guesslist[4] or ask == guesslist[5] or ask == guesslist[6] or ask == guesslist[7] or ask == guesslist[8] or ask == guesslist[9]:
     guesslist = [1, 2, 7, 4, 25, 15, 12, 21, 16, 9]
     guesslist = set(guesslist)
     if ask in guesslist:
